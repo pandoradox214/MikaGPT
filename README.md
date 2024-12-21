@@ -1,3 +1,4 @@
+![GPT-Neo Demo](./images/header.png)
 # Misono Mika GPT-Neo with transformer BOT
 
 This bot will act as a discord bot assistant that can have conversation and manage your server. Also, 
