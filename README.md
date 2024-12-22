@@ -27,8 +27,8 @@ Follow these steps to set up the project:
 First, clone the repository to your local system (if applicable):
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/pandoradox214/MikaGPT.git
+cd MikaGPT
 ```
 
 ### 2. Create a Virtual Environment (Optional but Recommended)
