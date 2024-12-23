@@ -50,8 +50,9 @@ async def on_message(message):
 
     if message.content.startswith('$mikaGPT'):
         new_content = message.content[9:]  # Remove the '$mikaGPT' prefix
-        mika = mikaGPT_response(new_content, Sensei)
-        await message.channel.send(mika)
+        async with message.channel.typing(): # Bot is responding
+            mika = mikaGPT_response(new_content, Sensei)
+            await message.channel.send(mika)
 
 
 
